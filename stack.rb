@@ -7,7 +7,6 @@
 class Stack
 
   include Enumerable
-
   def initialize(max = 1000)
     @size = max
     @queue = Array.new
